@@ -1,7 +1,9 @@
 // server.js
-const express = require('express');
-const axios = require('axios');
-const cheerio = require('cheerio');
+import express from "express";
+import axios from "axios";
+const axios = axios();
+import cheerio from "cheerio";
+const cheerio = cheerio();
 const app = express();
 const port = 3000;
 

@@ -1,6 +1,7 @@
-
-const axios = require("axios"); //특정  URL  삽입 시 URL html 태그 가지고
-const cheerio = require("cheerio");
+import axios from "./node_modules/axios/index.d.ts";
+const axios = axios();
+import cheerio from "cheerio";
+const cheerio = cheerio();
 
 const getHTML = async (date) => {
     try {

@@ -64,4 +64,4 @@ const getCourse = async (date) => {
     return courses;
 };
 
-getCourse(20240123);
+getCourse(20240125);

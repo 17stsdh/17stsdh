@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+        <style>
+            h5 {
+                font-family: 'Parisienne', cursive;
+                font-size: 40px;
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
+        </style>
+    
+    <meta charset="UTF-8">
+    <title>Redress</title>
+    <script type="text/javascript">
+      document.write("<h5>Redress</h5>")
+      var url;
+      function popUrl(url){
+      window.open(url);
+      }
+
+      </script>
+      <body>
+        <script src="https://kit.fontawesome.com/534f87be6f.js" crossorigin="anonymous"></script>
+        <i class="fa-solid fa-magnifying-glass" style="position: absolute; top: 125px; left: 1045px;"></i>
+      </body>
+
+    <style>
+      .searchBox {
+        padding-inline-start: 467px;
+        font-size: 0px;
+        margin: 30px 0;
+        height:  70px;
+        width: 1000px;
+      }
+
+      .listBox {
+        max-width: 500px;
+      }
+
+      .listInner {
+        background-color: #f5f5dc;
+        margin: 20px 5px;
+        padding: 4px;
+      }
+
+      .website {
+        font-weight: bold;
+      }
+    </style>
+    
+  </head>
+  
+
+    <div class="searchBox">
+      <label>
+          <input type="text" id="search" onkeyup="filter()" placeholder="       검색어를 입력해주세요." style="height: 70px; width: 610px; border-radius: 40px;"/></label>
+  
+    </div>
+    <div class="listBox">
+
+      <div class="listInner">
+        <span class="website"><p><a href="#" onclick="popUrl('https://news.tvchosun.com/')"><font size=2></font>TV조선</a></p></span>
+        <span class="result"><font size=5><script src>tvchousun_title.js</script></font></br></span>
+      </div>
+
+      <div class="listInner">
+        <span class="website"><p><a href="#" onclick="popUrl('http://www.dcinside.com')">디시</a></p></span>
+        <span class="result"><font size=5>기사 제목2</font></br></span>
+      </div>
+
+      <div class="listInner">
+        <span class="website"><p><a href="#" onclick="popUrl('http://www.nate.com')">네이트</a></p></span>
+        <span class="result"><font size=5>기사  제목222</font></br></span>
+      </div>
+
+      <div class="listInner">
+        <span class="website"><p><a href="#" onclick="popUrl('https://www.joongang.co.kr/')">중앙</a></p></span>
+        <span class="result"><font size=5>기사제목</font></br></span>
+      </div>
+
+      <div class="listInner">
+        <span class="website"><p><a href="#" onclick="popUrl('https://www.ilbe.com/')">일간베스트</a></p></span>
+        <span class="result"><font size=5>기사제목</font></br></span>
+      </div>
+
+      <div class="listInner">
+        <span class="website"><p><a href="#" onclick="popUrl('https://m.edaily.co.kr/')">이데일리</a></p></span>
+        <span class="result"><font size=5>기사제목</font></br></span>
+      </div>
+
+      <div class="listInner">
+        <span class="website"><p><a href="#" onclick="popUrl('https://news.sbs.co.kr/news/newsMain.do')">SBS뉴스</a></p></span>
+        <span class="result"><font size=5>기사제목</font></br></span>
+      </div>
+
+      <div class="listInner">
+        <span class="website"><p><a href="#" onclick="popUrl('https://www.newstof.com/')">뉴스톱</a></p></span>
+        <span class="result"><font size=5>기사제목</font></br></span>
+      </div>
+
+      <div class="listInner">
+        <span class="website"><p><a href="#" onclick="popUrl('https://www.fnnews.com/')">파이낸셜뉴스</a></p></span>
+        <span class="result"><font size=5>기사제목</font></br></span>
+      </div>
+
+      <div class="listInner">
+        <span class="website"><p><a href="#" onclick="popUrl('https://www.mk.co.kr/')">매일경제</a></p></span>
+        <span class="result"><font size=5>기사제목</font></br></span>
+      </div>
+
+      <div class="listInner">
+        <span class="website"><p><a href="#" onclick="popUrl('https://www.hani.co.kr/')">한겨레</a></p></span>
+        <span class="result"><font size=5>기사제목</font></br></span>
+      </div>
+
+      <div class="listInner">
+        <span class="website"><p><a href="#" onclick="popUrl('https://www.dispatch.co.kr')">디스패치</a></p></span>
+        <span class="result"><font size=5>기사제목</font></br></span>
+      </div>
+
+      <div class="listInner">
+        <span class="website"><p><a href="#" onclick="popUrl('https://jtbc.co.kr/')">JTBC</a></p></span>
+        <span class="result"><font size=5>기사제목</font></br></span>
+      </div>
+    </div>
+
+      <script src="app.js"></script>
+      <script src="tvchosun_title.js"></script>
+  </body>
+</html>
